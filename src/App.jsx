@@ -1,19 +1,20 @@
-
 import './App.css'
-import rod from "./assets/img/rik.jpg";
+// import rod from "./assets/img/rik.jpg";
 import Randm_app from './components/Randm_app';
 import Footer from './components/Footer';
+import imagenes from './assets/imagenes';
 
 function App() {
  
 
   return (
     <div className="App">
-      <header>
-      <img src={rod} alt="" width={1686} height={670}/>
+      <header className="imagenHeader">   
+        {/* <img src={imagenes} className="imagenLogo" alt="imagen" /> */}
+        <img src={imagenes[0].img} alt="" />
       </header>
-      <Randm_app />   
-      
+
+      <Randm_app />        
  
       <Footer />
     
@@ -22,3 +23,6 @@ function App() {
 }
 
 export default App
+
+
+

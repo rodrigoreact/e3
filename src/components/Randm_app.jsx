@@ -25,7 +25,7 @@ const Randm_app = () => {
     }
 
     const [page , setPage] = useState(1);
-    const perPage = 6
+    const perPage = 4
     const firstIndex= (page-1)*perPage
     const quantyPage = Math.ceil(rickLocation.residents?.length / perPage)
     
