@@ -15,9 +15,8 @@ header{
 
 }
 .imagenHeader{
-  background-image: url('../src/assets/img/rik.jpg');
-  width:1686px;
-  height:670px;
+  width:1200px;
+  height:470px;
 }
 
 .info__status{
