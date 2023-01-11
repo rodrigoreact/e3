@@ -8,16 +8,16 @@ function App() {
  
 
   return (
-    <div className="App">
-      <header className="imagenHeader">   
-        {/* <img src={imagenes} className="imagenLogo" alt="imagen" /> */}
-        <img src={imagenes[0].img} alt="" />
-      </header>
-
+    <div className="App" style={{textAlign: 'center'}}>
+      <div className="hijo" style={{textAlign: 'center'}}>
+        <header className="imagenHeader">           
+          <img src={imagenes[0].name} className="imagenLogo" alt="" />
+        </header>
+   
       <Randm_app />        
  
       <Footer />
-    
+      </div>
     </div>
   )
 }

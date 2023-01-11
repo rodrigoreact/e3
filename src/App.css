@@ -14,10 +14,20 @@ header{
   background-size:cover;
 
 }
+.App{   
+    display: flex;
+   
+    
+  }
+.hijo{
+  margin: auto;
+
+}
+
 .imagenHeader{
-  background-image: url('../src/assets/img/rik.jpg');
-  width:1686px;
-  height:670px;
+  /* background-image: url('../src/assets/img/rik.jpg'); */
+  width:1200px;
+  height:470px;
 }
 
 .info__status{
@@ -116,7 +126,10 @@ input{
 img{   
     object-fit: cover;   
 }
-
+.imagenLogo{
+  width:80%;
+  height: 90%;
+}
 .getPages{
   position: relative;
   display: flex;

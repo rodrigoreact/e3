@@ -1,6 +1,6 @@
 
-import ri from './img/ri.png';
-import rik from './img/rik.jpg';
+import ri from './img/ri.jpg';
+import rik from './img/rik.png';
 
 
 export default [
