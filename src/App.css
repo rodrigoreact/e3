@@ -115,7 +115,10 @@ input{
 img{   
     object-fit: cover;   
 }
-
+.imagenLogo{
+  width:80%;
+  height: 90%;
+}
 .getPages{
   position: relative;
   display: flex;
