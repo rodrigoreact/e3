@@ -1,23 +1,23 @@
 import './App.css'
-// import rod from "./assets/img/rik.jpg";
+
 import Randm_app from './components/Randm_app';
 import Footer from './components/Footer';
-// import imagenes from './assets/imagenes';
+import imagenes from './assets/imagenes';
 
 function App() {
  
 
   return (
-    <div className="App">
-      <header className="imagenHeader">   
-        {/* <img src={rod} className="imagenLogo" alt="imagen" /> */}
-       {/*  <img src={imagenes[0].img} alt="" /> */}
-      </header>
-
+    <div className="App" style={{textAlign: 'center'}}>
+      <div className="hijo" style={{textAlign: 'center'}}>
+        <header className="imagenHeader">           
+          <img src={imagenes[0].name} className="imagenLogo" alt="" />
+        </header>
+   
       <Randm_app />        
  
       <Footer />
-    
+      </div>
     </div>
   )
 }
